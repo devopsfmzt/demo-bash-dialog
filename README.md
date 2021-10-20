@@ -1,6 +1,9 @@
 # demo-bash-dialog
 I am trying to create a graphical GUI for a shell script.
 
+## Important note!
+The key/password in the program is just an example.
+
 ## Requirements for the program
 - Linux
   - `apt-get install dialog`
