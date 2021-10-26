@@ -16,7 +16,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: |
-          chmod +x "${GITHUB_WORKSPACE}/Program.sh"
+          chmod +x "${GITHUB_WORKSPACE}/test-key.sh"
       - run: |
-          bash "${GITHUB_WORKSPACE}/Program.sh"
+          bash "${GITHUB_WORKSPACE}/test-key.sh"
       - run: echo "🍏 This job's status is ${{ job.status }}."
