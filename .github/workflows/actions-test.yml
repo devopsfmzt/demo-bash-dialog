@@ -17,5 +17,6 @@ jobs:
           ls ${{ github.workspace }}
       - run: |
           chmod +x "${GITHUB_WORKSPACE}/Program.sh"
-          "${GITHUB_WORKSPACE}/Program.sh"
+      - run: |
+          bash "${GITHUB_WORKSPACE}/Program.sh"
       - run: echo "🍏 This job's status is ${{ job.status }}."
